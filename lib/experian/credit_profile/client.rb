@@ -14,6 +14,6 @@ module Experian
         raise Experian::ArgumentError, "Required options missing: first_name, last_name, ssn OR first_name, last_name, street, zip"
       end
 
-   end
+    end
   end
 end
